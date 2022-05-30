@@ -3,13 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Users</title>
 </head>
 <body>
-<div>
-    <th:block th:each="msg : ${messages}">
+<h1>Users</h1>
+<div th:each="user : ${users}">
+    <p th:text="${user.getName()}"></p>
+
+
+   <!-- <th:block th:each="msg : ${messages}">
         <h1 th:text="${msg}"></h1>
-    </th:block>
+    </th:block>-->
 </div>
 </body>
 </html>
