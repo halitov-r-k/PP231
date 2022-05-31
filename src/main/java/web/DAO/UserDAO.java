@@ -21,4 +21,8 @@ public class UserDAO {
     public List<User> index() {
         return users;
     }
+
+    public User showUser(int id) {
+        return  users.stream().filter(user -> user.getId() == id).findAny().orElse(null);}
+
 }

@@ -10,7 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4df6b8c2-45ff-4bda-aef3-0966ce4ad97e" name="Changes" comment="2022-05-30T22:37">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/DAO/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/DAO/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/controllers/Controller1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controllers/Controller1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -52,6 +56,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "configurable.group.editor",
     "spring.configuration.checksum": "db64f574f032d7ed21f2f73596a2b638"
   }
 }]]></component>
@@ -155,6 +160,7 @@
       <workItem from="1653895096859" duration="4748000" />
       <workItem from="1653926018654" duration="5039000" />
       <workItem from="1653961708202" duration="1034000" />
+      <workItem from="1653969705296" duration="9975000" />
     </task>
     <task id="LOCAL-00001" summary="2022-05-30T22:37">
       <created>1653932258249</created>
