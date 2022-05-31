@@ -15,14 +15,16 @@ public class Controller1 {
     public Controller1(UserDAO userDAO) {
         this.userDAO = userDAO;
     }
-    @GetMapping(value = "/")
+//    @GetMapping(value = "/")
+    @GetMapping("/")
         public String showUsers(Model model) {
             model.addAttribute("users", userDAO.index());
         return "index";
         }
-        @GetMapping(value = "/{id}")
+//        @GetMapping(value = "/{id}")
+        @GetMapping("/{id}")
         public String showUser(@PathVariable("id") int id, Model model) {
-            model.addAttribute("users", userDAO.showUser(id));
+            model.addAttribute("user", userDAO.showUser(id));
         return "user";
     }
 
