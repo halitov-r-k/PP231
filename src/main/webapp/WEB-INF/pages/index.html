@@ -8,7 +8,8 @@
 <body>
 <h1>Users</h1>
 <div th:each="user : ${users}">
-    <p th:text="${user.getName()}"></p>
+    <th:block th:text="${user.getId()}"></th:block>
+    <th:block th:text="${user.getName()}"></th:block>
 
 
    <!-- <th:block th:each="msg : ${messages}">
