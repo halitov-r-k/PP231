@@ -40,6 +40,6 @@ public class Controller1 {
     @PostMapping
     public String create(@ModelAttribute("user") User user) {
         userDAO.save(user);
-        return "redirect:index";
+        return "redirect:/";
     }
 }
