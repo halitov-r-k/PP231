@@ -33,8 +33,11 @@ public class UserDAO {
     }
 
     public void update(int id, User updateUser) {
-        System.out.println("update");
         User userToBeUpdate = showUser(id);
         userToBeUpdate.setName(updateUser.getName());
+    }
+
+    public void delete(int id) {
+        users.removeIf(p -> p.getId() == id);
     }
 }
