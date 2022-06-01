@@ -31,4 +31,10 @@ public class UserDAO {
         user.setId(++USER_COUNT);
         users.add(user);
     }
+
+    public void update(int id, User updateUser) {
+        System.out.println("update");
+        User userToBeUpdate = showUser(id);
+        userToBeUpdate.setName(updateUser.getName());
+    }
 }

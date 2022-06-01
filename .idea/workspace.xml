@@ -9,10 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4df6b8c2-45ff-4bda-aef3-0966ce4ad97e" name="Changes" comment="2022-05-31T22:30">
+    <list default="true" id="4df6b8c2-45ff-4bda-aef3-0966ce4ad97e" name="Changes" comment="2022-06-01T13:40">
+      <change afterPath="$PROJECT_DIR$/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/DAO/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/DAO/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/AppInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/AppInit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/controllers/Controller1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controllers/Controller1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/models/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/new.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +33,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -160,7 +162,6 @@
       <workItem from="1653926018654" duration="5039000" />
       <workItem from="1653961708202" duration="1034000" />
       <workItem from="1653969705296" duration="9975000" />
-      <workItem from="1654045455530" duration="1744000" />
     </task>
     <task id="LOCAL-00001" summary="2022-05-30T22:37">
       <created>1653932258249</created>
@@ -169,21 +170,7 @@
       <option name="project" value="LOCAL" />
       <updated>1653932258249</updated>
     </task>
-    <task id="LOCAL-00002" summary="2022-05-31T20:55">
-      <created>1654012569543</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1654012569543</updated>
-    </task>
-    <task id="LOCAL-00003" summary="2022-05-31T22:30">
-      <created>1654018235488</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1654018235488</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,8 +189,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2022-05-30T22:37" />
-    <MESSAGE value="2022-05-31T20:55" />
-    <MESSAGE value="2022-05-31T22:30" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-05-31T22:30" />
+    <MESSAGE value="2022-06-01T13:40" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-06-01T13:40" />
   </component>
 </project>
