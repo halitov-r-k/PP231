@@ -22,11 +22,13 @@ public class Controller1 {
     return "index";
     }
 
+
     @GetMapping("/{id}")
     public String showUser(@PathVariable("id") int id, Model model) {
         model.addAttribute("user", userDAO.showUser(id));
         return "user";
     }
+
 
     @GetMapping("/new")
     public String newUser(Model model) {
@@ -45,7 +47,6 @@ public class Controller1 {
         model.addAttribute("user", userDAO.showUser(id));
         return "edit";
     }
-
     @PatchMapping ("/{id}")
         public String update(@ModelAttribute("user") User user, @PathVariable("id") int id) {
         userDAO.update(id, user);
@@ -57,5 +58,4 @@ public class Controller1 {
         userDAO.delete(id);
         return "redirect:/";
     }
-
 }
